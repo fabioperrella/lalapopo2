@@ -1,0 +1,24 @@
+PATH
+  remote: .
+  specs:
+    lalapopo2 (0.1.0)
+      aasm (~> 5.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    aasm (5.0.6)
+      concurrent-ruby (~> 1.0)
+    concurrent-ruby (1.1.5)
+    rake (10.5.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.17)
+  lalapopo2!
+  rake (~> 10.0)
+
+BUNDLED WITH
+   1.17.3
